@@ -1,36 +1,36 @@
 {
-    "regionInfo": {
-      "PayCallbackUrl": "",
-      "AreaType": "",
-      "CdkeyUrl": "",
-      "PrivacyPolicyUrl": "",
-      "FeedbackUrl": "",
-      "BulletinUrl": "",
-      "SecretKey": "",
-      "ResourceUrl": "",
-      "DataUrl": "",
-      "ResourceUrlBak": "",
-      "DataUrlBak": "",
-      "ClientDataVersion": 0,
-      "ClientSilenceDataVersion": 0,
-      "ClientDataMd5": "",
-      "ClientSilenceDataMd5": "",
-      "ClientVersionSuffix": "",
-      "ClientSilenceVersionSuffix": "",
-      "ResVersionConfig": {
-        "Relogin": false,
-        "Md5": "",
-        "Version": 0,
-        "ReleaseTotalSize": "",
-        "VersionSuffix": "",
-        "Branch": ""
-      }
-    },
-      "StopServer": {
-        "StopBeginTime": 1680833766,
-        "StopEndTime": 1691374566,
-        "Url": "https://pd.qq.com/s/ed2klo7c0",
-        "ContentMsg":"提示：无此客户端热更信息"
-      }
-  
-  }
+  "regionInfo": {
+    "PayCallbackUrl": "",
+    "AreaType": "CN",
+    "CdkeyUrl": "",
+    "PrivacyPolicyUrl": "",
+    "FeedbackUrl": "",
+    "BulletinUrl": "",
+    "SecretKey": "",
+    "ResourceUrl": "https://autopatchcn.yuanshen.com/client_game_res/3.4_live",
+    "DataUrl": "https://autopatchcn.yuanshen.com/client_design_data/3.4_live",
+    "ResourceUrlBak": "3.4_live",
+    "DataUrlBak": "3.4_live",
+    "ClientDataVersion": 13021296,
+    "ClientSilenceDataVersion": 12901190,
+    "ClientDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"1eeeff672e899799d05b721c33781d5f\", \"fileSize\": 5147}",
+    "ClientSilenceDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"59bd72d68bdc13d7269339c1765f8b86\", \"fileSize\": 410}",
+    "ClientVersionSuffix": "8f79734b55",
+    "ClientSilenceVersionSuffix": "326dbbbf65",
+    "ResVersionConfig": {
+      "Relogin": false,
+      "Md5": "{\"remoteName\": \"res_versions_external\", \"md5\": \"f1e9cd734d4e67457a7e5543a79a5267\", \"fileSize\": 383343}\r\n{\"remoteName\": \"res_versions_medium\", \"md5\": \"b69bd9ecd7fea2417b949cc0cad4b00e\", \"fileSize\": 99749}\r\n{\"remoteName\": \"res_versions_streaming\", \"md5\": \"13153fbeb959e252e2734bae6dd7ca56\", \"fileSize\": 29539}\r\n{\"remoteName\": \"release_res_versions_external\", \"md5\": \"609931db0e1dae5dd238853476d18e7e\", \"fileSize\": 383343}\r\n{\"remoteName\": \"release_res_versions_medium\", \"md5\": \"2d9bed099e0ba154903fe5b836a120ea\", \"fileSize\": 99749}\r\n{\"remoteName\": \"release_res_versions_streaming\", \"md5\": \"776b1100e085a2a5f16cb1576e9fdead\", \"fileSize\": 29539}\r\n{\"remoteName\": \"base_revision\", \"md5\": \"af0f241d9f231b2d3230e8f707a0c321\", \"fileSize\": 19}",
+      "Version": 12875869,
+      "ReleaseTotalSize": "0",
+      "VersionSuffix": "b9da23cec2",
+      "Branch": "3.4_live"
+    }
+  },
+    "StopServer": {
+      "StopBeginTime": 1680833766,
+      "StopEndTime": 1691374566,
+      "Url": "https://pd.qq.com/s/ed2klo7c0",
+      "ContentMsg":"芜湖起飞"
+    }
+
+}
