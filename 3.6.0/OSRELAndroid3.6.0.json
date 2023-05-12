@@ -1,0 +1,36 @@
+{
+  "regionInfo": {
+    "PayCallbackUrl": "",
+    "AreaType": "OS",
+    "CdkeyUrl": "",
+    "PrivacyPolicyUrl": "",
+    "FeedbackUrl": "",
+    "BulletinUrl": "",
+    "SecretKey": "",
+    "ResourceUrl": "https://autopatchcn.yuanshen.com/client_game_res/3.6_live",
+    "DataUrl": "https://autopatchcn.yuanshen.com/client_design_data/3.6_live",
+    "ResourceUrlBak": "3.6_live",
+    "DataUrlBak": "3.6_live",
+    "ClientDataVersion": 14299294,
+    "ClientSilenceDataVersion": 14299294,
+    "ClientDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"6b15d7d09343cf03835c6be6a303f9e8\", \"fileSize\": 5147}",
+    "ClientSilenceDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"a8eae841a8a120ead89fea25f55274e1\", \"fileSize\": 410}",
+    "ClientVersionSuffix": "f267b82a5c",
+    "ClientSilenceVersionSuffix": "f267b82a5c",
+    "ResVersionConfig": {
+      "Relogin": false,
+      "Md5": "{\"remoteName\": \"res_versions_external\", \"md5\": \"8e28ca7fb74236a74fed973298019d3e\", \"fileSize\": 418181}\r\n{\"remoteName\": \"res_versions_medium\", \"md5\": \"60cd17c76b28b1df10a406c6c7f0447c\", \"fileSize\": 102090}\r\n{\"remoteName\": \"res_versions_streaming\", \"md5\": \"b6859c8dee3bc0cf482ba99dbf526ac2\", \"fileSize\": 29232}\r\n{\"remoteName\": \"release_res_versions_external\", \"md5\": \"d18416357020262733dcef1095072c6f\", \"fileSize\": 418181}\r\n{\"remoteName\": \"release_res_versions_medium\", \"md5\": \"8e62db583e29e5e9bd424515fb10e2a8\", \"fileSize\": 102090}\r\n{\"remoteName\": \"release_res_versions_streaming\", \"md5\": \"a7dad6f7026483e4da00711b514c4952\", \"fileSize\": 29232}\r\n{\"remoteName\": \"base_revision\", \"md5\": \"676ff5335237f5ff1d0bccc2db435a50\", \"fileSize\": 19}",
+      "Version": 14478736,
+      "ReleaseTotalSize": "0",
+      "VersionSuffix": "c536bf66dc",
+      "Branch": "3.6_live"
+    }
+  },
+    "StopServer": {
+      "StopBeginTime": 1680833766,
+      "StopEndTime": 1691374566,
+      "Url": "https://pd.qq.com/s/ed2klo7c0",
+      "ContentMsg":"提示：无此版本热更信息,请截图反馈问题！"
+    }
+
+}
