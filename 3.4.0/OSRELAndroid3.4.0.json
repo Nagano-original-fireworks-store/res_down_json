@@ -1,0 +1,36 @@
+{
+  "regionInfo": {
+    "PayCallbackUrl": "https://example.com/pay-callback",
+    "AreaType": "OS",
+    "CdkeyUrl": "",
+    "PrivacyPolicyUrl": "",
+    "FeedbackUrl": "",
+    "BulletinUrl": "",
+    "SecretKey": "",
+    "ResourceUrl": "https://autopatchcn.yuanshen.com/client_game_res/3.4_live",
+    "DataUrl": "https://autopatchcn.yuanshen.com/client_design_data/3.4_live",
+    "ResourceUrlBak": "",
+    "DataUrlBak": "",
+    "ClientDataVersion": 13021296,
+    "ClientSilenceDataVersion": 12901190,
+    "ClientDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"1eeeff672e899799d05b721c33781d5f\", \"fileSize\": 5147}",
+    "ClientSilenceDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"59bd72d68bdc13d7269339c1765f8b86\", \"fileSize\": 410}",
+    "ClientVersionSuffix": "8f79734b55",
+    "ClientSilenceVersionSuffix": "326dbbbf65",
+    "ResVersionConfig": {
+      "Relogin": false,
+      "Md5": "{\"remoteName\": \"res_versions_external\", \"md5\": \"e9790c05e840c0e93a2063d98bd2d7c1\", \"fileSize\": 401247}\r\n{\"remoteName\": \"res_versions_medium\", \"md5\": \"cbefdae0b87f6d3ed0e6ca46c848cdf6\", \"fileSize\": 95663}\r\n{\"remoteName\": \"res_versions_streaming\", \"md5\": \"da868422a159d4bd163effaedd275783\", \"fileSize\": 2215}\r\n{\"remoteName\": \"release_res_versions_external\", \"md5\": \"2cce52abb9cc61b95abf948308b0e999\", \"fileSize\": 401247}\r\n{\"remoteName\": \"release_res_versions_medium\", \"md5\": \"d548d3a262dbcc725054fbb527b4ebcc\", \"fileSize\": 95663}\r\n{\"remoteName\": \"release_res_versions_streaming\", \"md5\": \"04b13f69ddc53afd2c9dc5f43230b919\", \"fileSize\": 2215}\r\n{\"remoteName\": \"base_revision\", \"md5\": \"af0f241d9f231b2d3230e8f707a0c321\", \"fileSize\": 19}",
+      "Version": 12875869,
+      "ReleaseTotalSize": "0",
+      "VersionSuffix": "b9da23cec2",
+      "Branch": "3.4_live"
+    }
+  },
+    "StopServer": {
+      "StopBeginTime": 1680105600,
+      "StopEndTime": 1693324800,
+      "Url": "https://pd.qq.com/s/ed2klo7c0",
+      "ContentMsg":"芜湖起飞"
+    }
+
+}
