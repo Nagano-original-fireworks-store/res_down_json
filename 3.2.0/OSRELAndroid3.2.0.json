@@ -1,7 +1,7 @@
 {
     "regionInfo": {
       "PayCallbackUrl": "https://example.com/pay-callback",
-      "AreaType": "CN",
+      "AreaType": "OS",
       "CdkeyUrl": "",
       "PrivacyPolicyUrl": "",
       "FeedbackUrl": "",

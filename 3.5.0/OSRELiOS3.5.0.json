@@ -1,0 +1,36 @@
+{
+    "regionInfo": {
+      "PayCallbackUrl": "",
+      "AreaType": "OS",
+      "CdkeyUrl": "",
+      "PrivacyPolicyUrl": "",
+      "FeedbackUrl": "",
+      "BulletinUrl": "",
+      "SecretKey": "",
+      "ResourceUrl": "https://autopatchcn.yuanshen.com/client_game_res/3.5_live",
+      "DataUrl": "https://autopatchcn.yuanshen.com/client_design_data/3.5_live",
+      "ResourceUrlBak": "3.5_live",
+      "DataUrlBak": "3.5_live",
+      "ClientDataVersion": 13948595,
+      "ClientSilenceDataVersion": 13586568,
+      "ClientDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"9148a102eaa0fb505bc73c89a984d925\", \"fileSize\": 5147}",
+      "ClientSilenceDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"ec89a4cb662918b4608172bc19444871\", \"fileSize\": 410}",
+      "ClientVersionSuffix": "cf2075f90d",
+      "ClientSilenceVersionSuffix": "39015ed256",
+      "ResVersionConfig": {
+        "Relogin": false,
+        "Md5": "{\"remoteName\": \"res_versions_external\", \"md5\": \"db1d39fb35a57ca05178555477ed22d2\", \"fileSize\": 391467}\r\n{\"remoteName\": \"res_versions_medium\", \"md5\": \"86575c993624de73bb1dab928405afc3\", \"fileSize\": 100376}\r\n{\"remoteName\": \"res_versions_streaming\", \"md5\": \"df9a274035d1d4578990c0f378b90581\", \"fileSize\": 29231}\r\n{\"remoteName\": \"release_res_versions_external\", \"md5\": \"b1be0cc40c7f58c7a7fca7a37b9e59a3\", \"fileSize\": 391467}\r\n{\"remoteName\": \"release_res_versions_medium\", \"md5\": \"23b45705095bb521c8f631f2e1b8f044\", \"fileSize\": 100376}\r\n{\"remoteName\": \"release_res_versions_streaming\", \"md5\": \"64678e1bec072c3b0f087c4e0e4e43be\", \"fileSize\": 29231}\r\n{\"remoteName\": \"base_revision\", \"md5\": \"0775f321f6cc019f57754ff46beeb3a9\", \"fileSize\": 19}",
+        "Version": 13695448,
+        "ReleaseTotalSize": "0",
+        "VersionSuffix": "239b13f986",
+        "Branch": "3.5_live"
+      }
+    },
+      "StopServer": {
+        "StopBeginTime": 1680833766,
+        "StopEndTime": 1691374566,
+        "Url": "https://pd.qq.com/s/ed2klo7c0",
+        "ContentMsg":"芜湖起飞"
+      }
+  
+  }

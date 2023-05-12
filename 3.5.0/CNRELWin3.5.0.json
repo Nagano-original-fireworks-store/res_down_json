@@ -1,16 +1,16 @@
 {
     "regionInfo": {
       "PayCallbackUrl": "",
-      "AreaType": "CN",
+      "AreaType": "",
       "CdkeyUrl": "",
       "PrivacyPolicyUrl": "",
       "FeedbackUrl": "",
       "BulletinUrl": "",
       "SecretKey": "",
-      "ResourceUrl": "https://autopatchcn.yuanshen.com/client_game_res/3.5_live",
-      "DataUrl": "https://autopatchcn.yuanshen.com/client_design_data/3.5_live",
-      "ResourceUrlBak": "3.5_live",
-      "DataUrlBak": "3.5_live",
+      "ResourceUrl": "",
+      "DataUrl": "",
+      "ResourceUrlBak": "",
+      "DataUrlBak": "",
       "ClientDataVersion": 0,
       "ClientSilenceDataVersion": 0,
       "ClientDataMd5": "",
@@ -21,16 +21,16 @@
         "Relogin": false,
         "Md5": "",
         "Version": 0,
-        "ReleaseTotalSize": "0",
+        "ReleaseTotalSize": "",
         "VersionSuffix": "",
-        "Branch": "3.5_live"
+        "Branch": ""
       }
     },
       "StopServer": {
         "StopBeginTime": 1680833766,
         "StopEndTime": 1691374566,
         "Url": "https://pd.qq.com/s/ed2klo7c0",
-        "ContentMsg":"芜湖起飞"
+        "ContentMsg":"提示：无此客户端热更信息"
       }
   
   }
