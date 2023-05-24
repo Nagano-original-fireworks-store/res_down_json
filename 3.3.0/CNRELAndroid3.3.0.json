@@ -10,7 +10,7 @@
       "ResourceUrl": "https://autopatchhk.yuanshen.com/client_game_res/3.3_live",
       "DataUrl": "https://autopatchhk.yuanshen.com/client_design_data/3.3_live",
       "ResourceUrlBak": "3.3_live",
-      "DataUrlBak": "",
+      "DataUrlBak": "3.3_live",
       "ClientDataVersion": 12361027,
       "ClientSilenceDataVersion": 12361027,
       "ClientDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"8428117fa149153f34bd42c60c1dd6d4\", \"fileSize\": 5147}",
