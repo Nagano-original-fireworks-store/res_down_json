@@ -13,8 +13,8 @@
     "DataUrlBak": "3.7_live",
     "ClientDataVersion": 15203785,
     "ClientSilenceDataVersion": 15217365,
-    "ClientDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"8d83ff3b789402fb79f4285bfc18c234\", \"fileSize\": 5147}",
-    "ClientSilenceDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"1019a225df4602fa0dddd86f0108b0e1\", \"fileSize\": 409}",
+    "ClientDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"f7d6146961d133fef445a65d4c68eb31\", \"fileSize\": 5147}",
+    "ClientSilenceDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"891cb5bf1ee20f440a15ae009550bfec\", \"fileSize\": 409}",
     "ClientVersionSuffix": "1263c8592c",
     "ClientSilenceVersionSuffix": "8bf3cd40bc",
     "ResVersionConfig": {
