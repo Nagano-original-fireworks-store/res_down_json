@@ -3,3 +3,6 @@ wget/save/*
 wget/md5/*
 wget/md5_data_versions/*
 wget/save_data_versions/*
+wget/outputs
+wget/convert_save
+wget/input
