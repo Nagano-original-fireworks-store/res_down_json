@@ -11,8 +11,8 @@
     "DataUrl": "",
     "ResourceUrlBak": "",
     "DataUrlBak": "",
-    "ClientDataVersion": "",
-    "ClientSilenceDataVersion": "",
+    "ClientDataVersion": null,
+    "ClientSilenceDataVersion": null,
     "ClientDataMd5": "",
     "ClientSilenceDataMd5": "",
     "ClientVersionSuffix": "",
@@ -20,7 +20,7 @@
     "ResVersionConfig": {
       "Relogin": false,
       "Md5": "",
-      "Version": "",
+      "Version": null,
       "ReleaseTotalSize": "",
       "VersionSuffix": "",
       "Branch": ""
