@@ -20,6 +20,27 @@
             ]
         }
     },
+    "1.1": {
+        "device": [
+            "Android",
+            "iOS",
+            "StandaloneWindows64",
+            "PS5",
+            "PS4"
+        ],
+        "res": {
+            "Version_Suffix": "1398019_95d8c06931",
+            "file": [
+                "res_versions_external",
+                "res_versions_medium",
+                "res_versions_streaming",
+                "release_res_versions_external",
+                "release_res_versions_medium",
+                "release_res_versions_streaming",
+                "base_revision"
+            ]
+        }
+    },
     "1.2": {
         "device": [
             "Android",
@@ -146,6 +167,27 @@
             ]
         }
     },
+    "2.1": {
+        "device": [
+            "Android",
+            "iOS",
+            "StandaloneWindows64",
+            "PS5",
+            "PS4"
+        ],
+        "res": {
+            "Version_Suffix": "4335494_39225b48c2",
+            "file": [
+                "res_versions_external",
+                "res_versions_medium",
+                "res_versions_streaming",
+                "release_res_versions_external",
+                "release_res_versions_medium",
+                "release_res_versions_streaming",
+                "base_revision"
+            ]
+        }
+    },
     "2.2": {
         "device": [
             "Android",
@@ -198,6 +240,27 @@
         ],
         "res": {
             "Version_Suffix": "5691054_b6bda5cd2b",
+            "file": [
+                "res_versions_external",
+                "res_versions_medium",
+                "res_versions_streaming",
+                "release_res_versions_external",
+                "release_res_versions_medium",
+                "release_res_versions_streaming",
+                "base_revision"
+            ]
+        }
+    },
+    "2.5": {
+        "device": [
+            "Android",
+            "iOS",
+            "StandaloneWindows64",
+            "PS5",
+            "PS4"
+        ],
+        "res": {
+            "Version_Suffix": "6089080_7d735e9e35",
             "file": [
                 "res_versions_external",
                 "res_versions_medium",
