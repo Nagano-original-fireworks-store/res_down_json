@@ -1,26 +1,35 @@
 {
-  "region_info": {
-    "gateserver_ip": "8.211.159.222",
-    "gateserver_port": 22101,
-    "pay_callback_url": "https://osasiaoaserver.yuanshen.com/recharge",
-    "area_type": "JP",
-    "resource_url": "https://autopatchhk.yuanshen.com/client_game_res/",
-    "data_url": "https://autopatchhk.yuanshen.com/client_design_data/4.1_live",
-    "feedback_url": "https://webstatic-sea.hoyoverse.com/csc-service-center-fe/index.html?page_id=1&sign_type=2&auth_appid=csc&authkey_ver=1&win_direction=portrait",
-    "client_data_version": 18497406,
-    "handbook_url": "https://act.hoyoverse.com/ys/event/e20210601blue_post/vert.html?gamewebview=1&page_sn=56075b48c1ec4dad&mode=fullscreen&game_biz=hk4e_global&sign_type=2&auth_appid=bluepost&authkey_ver=1",
-    "client_silence_data_version": 18438893,
-    "res_version_config": {
-      "version": 17796095
-    },
-    "official_community_url": "https://act.hoyoverse.com/ys/event/e20221107-community/index.html?game_biz=hk4e_global&sign_type=2&auth_appid=redpoint&authkey_ver=1&red_point=2214,2215",
-    "client_version_suffix": "784203e5e2",
-    "client_silence_version_suffix": "3de081c493",
-    "account_bind_url": "https://account.hoyoverse.com",
-    "cdkey_url": "https://sg-hk4e-api.hoyoverse.com/common/apicdkey/api/exchangeCdkey?sign_type=2&auth_appid=apicdkey&authkey_ver=1",
-    "privacy_policy_url": "https://account.hoyoverse.com/#/about/privacyInGame?app_id=4&biz=hk4e_global",
-    "game_biz": "hk4e_global"
+  "regionInfo": {
+    "PayCallbackUrl": "http://127.0.0.1/pay-callback",
+    "AreaType": "JP",
+    "CdkeyUrl": "http://127.0.0.1",
+    "PrivacyPolicyUrl": "",
+    "FeedbackUrl": "",
+    "BulletinUrl": "",
+    "SecretKey": "",
+    "ResourceUrl": "https://autopatchhk.yuanshen.com/client_game_res/",
+    "DataUrl": "https://autopatchhk.yuanshen.com/client_design_data/4.1_live",
+    "ResourceUrlBak": "",
+    "DataUrlBak": "",
+    "ClientDataVersion": 18497406,
+    "ClientSilenceDataVersion": 18438893,
+    "ClientDataMd5": "",
+    "ClientSilenceDataMd5": "",
+    "ClientVersionSuffix": "784203e5e2",
+    "ClientSilenceVersionSuffix": "3de081c493",
+    "ResVersionConfig": {
+      "Relogin": false,
+      "Md5": "",
+      "Version": 17796095,
+      "ReleaseTotalSize": "",
+      "VersionSuffix": "",
+      "Branch": ""
+    }
   },
-  "client_secret_key": "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",
-  "region_custom_config_encrypted": "D9sXNhbTRYVFDHUvAOvGDi8A/EMkjRy8pVvVR9WmWWMChxRf8qhmxk9+2Wn878LYA4lAd/8J+tqAclOfaVLc6fDjPahZOLK+UIf2u3h1Jm1FjTsJ/TvULExh2A6C4SvT8gBD4DDIkmaqnf0LWMxr82xUr6Kj2reuVUUfYIcIPhFJeFt9l9jzix3o+9UbElvJ/up87GehauT/RNAd8X7cRN3gQ9a7p+92Pz9fwzY85ZwCWuLhy6DnVvXFcmzMQLwn6G6KNiYDiGvnF0vFEQWiKFtDNYqMVvPxtij24HSC/pBivpkPChGySHUVxubS6bPdeCgWyegXu0HWZSxO338aODz/qD/2WsPM13Kr9mBZnrf03s7i59lSFXkNajws0SFR8VYykymIhsZr60ccjh/lITF3cXBnFvddF6HmPHJzNrmE37qrO6bUZKizROhH/aFD6QAjbb8lgKUxq+u/Shr2Vq9nXme7YqsckSdBr6LU3/y318+XrZksGAzPpmAhCsdOSLRU0NUmBoXfQbSbbsf/AFFajPmRBKZ4G6DO9M/oDejRhINTuljXDd8yUJS8OTAf5E5azuG6FcjFloJSVc3yjIVRp/i4Gjk3qVwM8LP33+7kKDx27lo1pJUzaEyxTDCFxg3Xau6MYAvqCLHd9B18XaLAXZJOx5qvbnGVOZIP+8Dvbt9Z/z+xyl3/uq2y4t/K/kwYHx6WoYWNfPTb5fQqsxMnQki1WeAVcuCm+cEJihh3rZ925VYVT+xo05//RQeGwM343mlfOKyJVyXS/LmTs3NO+4LHr1inDdCjEAVkzIbt/j1OYi4ocHfhTkNkydTWquqFtdB4POP3IN/LwEUzF+W7dFYo306Idt6du7vWUN9faGSosl/3rg20KbtCct/bSUFyQES8eNyIgROeNApkRea03gYXrgWhClhmpFmfRckugnlHU9+XT5La37W4in1o26XYMjhPU8X+tx0CCUEpxJnfikVgnkCqgAzqO6d6oZ55UXXnwGt8sTpP/GR8uSw+8bG3tq65yaGJ/HLv06wn+QqWv5u/TBMkPkhQspJjU0710DUO8HIh"
+  "StopServer": {
+    "StopBeginTime": 1577808000,
+    "StopEndTime": 1893427200,
+    "Url": "https://vme50.icu/",
+    "ContentMsg": "芜湖起飞"
+  }
 }
