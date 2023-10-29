@@ -1,8 +1,9 @@
 test.json
-wget/save/*
-wget/md5/*
-wget/md5_data_versions/*
-wget/save_data_versions/*
-wget/outputs
-wget/convert_save
-wget/input
+tools/wget/save/*
+tools/wget/md5/*
+tools/wget/md5_data_versions/*
+tools/wget/save_data_versions/*
+tools/wget/outputs
+tools/wget/convert_save
+tools/wget/input
+tools/wget/savetest
