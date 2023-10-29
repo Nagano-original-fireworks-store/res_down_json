@@ -1,4 +1,4 @@
-name: Daily Job
+name: pull_json
 
 on:
   schedule:
