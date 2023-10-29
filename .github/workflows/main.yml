@@ -1,4 +1,4 @@
-name: pull_json
+name: pull_json_data
 
 on:
   schedule:
