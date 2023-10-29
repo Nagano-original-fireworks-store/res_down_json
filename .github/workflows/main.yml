@@ -1,0 +1,34 @@
+name: Daily Job
+
+on:
+  schedule:
+    - cron: '0 1 * * *'  # 每天凌晨1点执行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Run os region decode
+      run: |
+        cd tools
+        chmod +x os
+        ./os
+    - name: Run os region decode
+      run: |
+        cd tools
+        chmod +x cn
+        ./cn
+    - name: Run region conve
+      run: |
+        cd tools
+        chmod +x convert_region
+        ./convert_region
+    - name: Upload output
+      uses: actions/upload-artifact@v2
+      with:
+        name: JSON
+        path: tools/output
