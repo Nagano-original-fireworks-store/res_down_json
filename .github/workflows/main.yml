@@ -19,12 +19,12 @@ jobs:
       run: |
         cd tools
         chmod +x region_decode
-        ./region_decode "OSRELAndroid4.1.0" "64e149adf3705e93" "5" "OS" "https://osasiadispatch.yuanshen.com/query_cur_region"
+        ./region_decode "OSRELAndroid4.2.0" "953882be438da301" "5" "OS" "https://osasiadispatch.yuanshen.com/query_cur_region"
     - name: Run cn region decode
       run: |
         cd tools
         chmod +x region_decode
-        ./region_decode "CNRELAndroid4.1.0" "df7d21ffb348f73d" "4" "CN" "https://cngfdispatch.yuanshen.com/query_cur_region"
+        ./region_decode "CNRELAndroid4.2.0" "589f66146a73d5cc" "4" "CN" "https://cngfdispatch.yuanshen.com/query_cur_region"
     - name: Run region conve
       run: |
         cd tools
