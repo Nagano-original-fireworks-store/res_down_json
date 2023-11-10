@@ -8,6 +8,7 @@ on:
         - main
   
 jobs:
+  
   build:
     runs-on: ubuntu-latest
     env:
@@ -34,5 +35,5 @@ jobs:
     - name: Upload output
       uses: actions/upload-artifact@v2
       with:
-        name: "$version JSON"
+        name: "JSON"
         path: tools/output
