@@ -34,5 +34,5 @@ jobs:
     - name: Upload output
       uses: actions/upload-artifact@v2
       with:
-        name: $version"_JSON"
+        name: "$version JSON"
         path: tools/output
