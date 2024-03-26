@@ -1,0 +1,36 @@
+{
+  "region_info": {
+    "gateserver_ip": "47.101.203.7",
+    "gateserver_port": 22101,
+    "pay_callback_url": "http://10.101.11.129:22601/recharge",
+    "area_type": "CN",
+    "resource_url": "https://autopatchcn.yuanshen.com/client_game_res/4.2_live",
+    "data_url": "https://autopatchcn.yuanshen.com/client_design_data/4.2_live",
+    "feedback_url": "https://webstatic.mihoyo.com/csc-service-center-fe/index.html?page_id=1&sign_type=2&auth_appid=csc&authkey_ver=1&win_direction=portrait",
+    "resource_url_bak": "4.2_live",
+    "client_data_version": 19111669,
+    "handbook_url": "https://webstatic.mihoyo.com/ys/event/blue-post/index.html?gamewebview=1&page_sn=8d04ad6701394a81&mode=fullscreen&game_biz=hk4e_cn&sign_type=2&auth_appid=bluepost&authkey_ver=1&utm_source=game&utm_medium=ys&utm_campaign=hot",
+    "client_silence_data_version": 19202534,
+    "client_data_md5": "{\"remoteName\": \"data_versions\", \"md5\": \"d3d0a2d682763f2780b0601ffd5cc122\", \"hash\": \"12d935ef4b5f74de\", \"fileSize\": 6522}",
+    "client_silence_data_md5": "{\"remoteName\": \"data_versions\", \"md5\": \"b915d58c55cc025c14cee823e5f0ead2\", \"hash\": \"b076172de7b08286\", \"fileSize\": 522}",
+    "res_version_config": {
+      "version": 19151143,
+      "md5": "{\"remoteName\": \"res_versions_external\", \"md5\": \"3fc79d0fded1f2738169e133acd482b5\", \"hash\": \"71cb8ca1d2b1150a\", \"fileSize\": 724684}\r\n{\"remoteName\": \"res_versions_medium\", \"md5\": \"20486e0565560b5001895ad66331ed17\", \"hash\": \"698ee40f8fa007af\", \"fileSize\": 83510}\r\n{\"remoteName\": \"res_versions_streaming\", \"md5\": \"59f71e4e66c1e639ca1cbbc6558740b2\", \"hash\": \"7677395ef83a2a73\", \"fileSize\": 2658}\r\n{\"remoteName\": \"base_revision\", \"md5\": \"f611ecfbd231defe9395b459df75a0fe\", \"hash\": \"fa183d95f41df277\", \"fileSize\": 19}\r\n{\"remoteName\": \"audio_diff_versions_19151143-18121248\", \"md5\": \"ba07dd0c7d6ecd1d26513a92785eece8\", \"fileSize\": 25324}",
+      "release_total_size": "0",
+      "version_suffix": "52a8e1d974",
+      "branch": "4.2_live"
+    },
+    "official_community_url": "https://act.mihoyo.com/ys/event/community-content-collection/index.html?game_biz=hk4e_cn&sign_type=2&auth_appid=contenthub&authkey_ver=1&utm_source=game&utm_medium=ys&utm_campaign=menu",
+    "client_version_suffix": "2341d1acff",
+    "client_silence_version_suffix": "9ee695c4cb",
+    "account_bind_url": "https://user.mihoyo.com",
+    "cdkey_url": "https://hk4e-api.mihoyo.com/common/apicdkey/api/exchangeCdkey?sign_type=2&auth_appid=apicdkey&authkey_ver=1",
+    "privacy_policy_url": "https://user.mihoyo.com/#/about/privacyInGame?app_id=4&lang=zh-cn&biz=hk4e_cn",
+    "next_resource_url": "https://autopatchcn.yuanshen.com/client_game_res/4.2_live",
+    "next_res_version_config": {
+      "md5": "0",
+      "release_total_size": "0",
+      "branch": "4.2_live"
+    }
+  },
+}
