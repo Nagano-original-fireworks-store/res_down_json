@@ -1,0 +1,27 @@
+{
+  "retcode": 11,
+  "msg": "\u8d44\u6e90\u66f4\u65b0\u7ed3\u675f",
+  "region_info": {
+    "area_type": "OS",
+    "resource_url": "https://autopatchcn.yuanshen.com/client_game_res/1.6_live",
+    "data_url": "https://autopatchcn.yuanshen.com/client_design_data/1.6_live",
+    "client_data_version": 3353303,
+    "client_silence_data_version": 3266913,
+    "client_data_md5": "{\"remoteName\": \"data_versions\", \"md5\": \"7bc3f5eca16774a6643cb45ddbcefb0d\", \"fileSize\": 4401}",
+    "client_silence_data_md5": "{\"remoteName\": \"data_versions\", \"md5\": \"81875fda073abae20ab827dbbe35e987\", \"fileSize\": 515}",
+    "res_version_config": {
+      "version": 3305047,
+      "md5": "{\"remoteName\": \"res_versions_external\", \"md5\": \"3297576dc2230757dbe67fdb35a00fba\", \"fileSize\": 181168}\r\n{\"remoteName\": \"res_versions_medium\", \"md5\": \"bdd068ab25f1f6e67abe0b968e4b4845\", \"fileSize\": 76866}\r\n{\"remoteName\": \"release_res_versions_external\", \"md5\": \"069f566d6c997e581fb2d9c7ee5d4c5f\", \"fileSize\": 181168}\r\n{\"remoteName\": \"release_res_versions_medium\", \"md5\": \"64fbc97b0a2beaa2502ad57cc8489c75\", \"fileSize\": 76866}\r\n{\"remoteName\": \"base_revision\", \"md5\": \"405a713134625778882ef378b1092de2\", \"fileSize\": 18}",
+      "release_total_size": "0",
+      "version_suffix": "ecff173daf",
+      "branch": "1.6_live"
+    },
+    "client_version_suffix": "242157b1de",
+    "client_silence_version_suffix": "b1501b6955"
+  },
+  "stop_server": {
+    "stop_begin_time": 1680105600,
+    "stop_end_time": 1693324800,
+    "content_msg": "\u66f4\u65b0\u7ed3\u675f"
+  },
+}
