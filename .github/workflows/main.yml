@@ -21,12 +21,12 @@ jobs:
       run: |
         cd tools
         chmod +x region_decode
-        ./region_decode "OSRELAndroid4.6.0" "cf1f175b8653373d" "5" "OS" "$version" "https://osasiadispatch.yuanshen.com/query_cur_region"
+        ./region_decode "OSRELAndroid4.6.0" "cf1f175b8653373d" "5" "OS" "${version}" "https://osasiadispatch.yuanshen.com/query_cur_region"
     - name: Run cn region decode
       run: |
         cd tools
         chmod +x region_decode
-        ./region_decode "CNRELAndroid4.6.0" "2a0793d37497c803" "4" "CN" "$version" "https://cngfdispatch.yuanshen.com/query_cur_region"
+        ./region_decode "CNRELAndroid4.6.0" "2a0793d37497c803" "4" "CN" "${version}" "https://cngfdispatch.yuanshen.com/query_cur_region"
     - name: Run region conve
       run: |
         cd tools
@@ -34,20 +34,14 @@ jobs:
         ./convert_region
     - name: Move file
       run: |
-        mkdir "$version"
-<<<<<<< HEAD
+        mkdir ${version}
         cd tools
-        mv ./output/* ../"$version/"
+        mv ./output/* ../${version}/
     - name: Push to repository
       run: |
-=======
-        mv ./output/* ../"$version/"
-    - name: Push to repository
-        run: |
->>>>>>> 916230a30b612b9ec56fdd63652c55283379713c
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git checkout -b build-artifacts
-          git add -f "$version"
-          git commit -m "update $version "
-          git push --force https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}/build-artifacts
+          git checkout -b main
+          git add -f "${version}"
+          git commit -m "update ${version}"
+          git push --force https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}/main
