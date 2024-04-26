@@ -7,3 +7,7 @@ tools/wget/outputs
 tools/wget/convert_save
 tools/wget/input
 tools/wget/savetest
+tools/wget/md5_new
+tools/wget/inputS
+tools/wget/outputsS
+tools/wget/save_data_versions_new

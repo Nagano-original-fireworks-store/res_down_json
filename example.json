@@ -1,8 +1,8 @@
 {
   "regionInfo": {
-    "PayCallbackUrl": "",
+    "PayCallbackUrl": "http://127.0.0.1/pay-callback",
     "AreaType": "",
-    "CdkeyUrl": "",
+    "CdkeyUrl": "http://127.0.0.1",
     "PrivacyPolicyUrl": "",
     "FeedbackUrl": "",
     "BulletinUrl": "",
