@@ -1,0 +1,32 @@
+{
+  "region_info": {
+    "gateserver_ip": "47.103.19.201",
+    "gateserver_port": 22102,
+    "pay_callback_url": "http://10.101.11.129:22601/recharge",
+    "area_type": "CN",
+    "resource_url": "https://autopatchcn.yuanshen.com/client_game_res/4.3_live",
+    "data_url": "https://autopatchcn.yuanshen.com/client_design_data/4.3_live",
+    "feedback_url": "https://webstatic.mihoyo.com/csc-service-center-fe/index.html?page_id=1&sign_type=2&auth_appid=csc&authkey_ver=1&win_direction=portrait",
+    "resource_url_bak": "4.3_live",
+    "client_data_version": 19912525,
+    "handbook_url": "https://webstatic.mihoyo.com/ys/event/blue-post/index.html?gamewebview=1&page_sn=28c728e857d14cc5&mode=fullscreen&game_biz=hk4e_cn&sign_type=2&auth_appid=bluepost&authkey_ver=1&utm_source=game&utm_medium=ys&utm_campaign=hot",
+    "client_silence_data_version": 19850069,
+    "client_data_md5": "{\"remoteName\": \"data_versions\", \"md5\": \"a12717373a111ee5918b316daf2cad0d\", \"hash\": \"06d3c68723ad4d30\", \"fileSize\": 6522}",
+    "client_silence_data_md5": "{\"remoteName\": \"data_versions\", \"md5\": \"990b5f59144695b1a6a15c8f7676d8ba\", \"hash\": \"b114f51164b89502\", \"fileSize\": 522}",
+    "res_version_config": {
+      "version": 19920066,
+      "md5": "{\"remoteName\": \"res_versions_external\", \"md5\": \"eb8f9c1560b069d97aabb777c59fb333\", \"hash\": \"da70aca3029c2bab\", \"fileSize\": 2014325}\r\n{\"remoteName\": \"res_versions_medium\", \"md5\": \"797590d07dfcd4e9c1c5f6d14c7e7bdb\", \"hash\": \"dca4cfc0c3a36612\", \"fileSize\": 294169}\r\n{\"remoteName\": \"res_versions_streaming\", \"md5\": \"095c47ca8b998101e0b2a598cca4195f\", \"hash\": \"d1f40ee3f8143fba\", \"fileSize\": 112662}\r\n{\"remoteName\": \"base_revision\", \"md5\": \"bf3fc97815dbd396ec71404a4056d96e\", \"hash\": \"207afd4dbb430116\", \"fileSize\": 19}",
+      "release_total_size": "0",
+      "version_suffix": "acddee76d7",
+      "branch": "4.3_live"
+    },
+    "official_community_url": "https://act.mihoyo.com/ys/event/community-content-collection/index.html?game_biz=hk4e_cn&sign_type=2&auth_appid=contenthub&authkey_ver=1&utm_source=game&utm_medium=ys&utm_campaign=menu",
+    "client_version_suffix": "144f7adb6c",
+    "client_silence_version_suffix": "05c96fc59c",
+    "account_bind_url": "https://user.mihoyo.com",
+    "cdkey_url": "https://hk4e-api.mihoyo.com/common/apicdkey/api/exchangeCdkey?sign_type=2&auth_appid=apicdkey&authkey_ver=1",
+    "privacy_policy_url": "https://user.mihoyo.com/#/about/privacyInGame?app_id=4&lang=zh-cn&biz=hk4e_cn"
+  },
+  "client_secret_key": "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",
+  "region_custom_config_encrypted": "GspvV70MjyzDc/V7Da382vBGoTcjxhSDFR7az7FDzKz4z7TQSCvqpIhCETbrMCIRYUHo9TEYt0aiQ3Sd7OhfEDVNJf8+O8mxw13o1KvVfOOA7rFfJWA5UqKwvjc9FxzYAv6TBlnMQj+XH1jClDT3UK2tvCLI7g5c4bcSKkoeKVxx6+kVxqi8/9iL2WSbSTJ9fdOtxsYuboxL9/xhjpw1MxGyYSjKk2T7EyBoJwLAb2TeG8Bd3gx6wiIOkvBn2GFZf0Gcy1SZOiYWk1GyE05lgeNQsHFgdabXak1mL/2LnxAOw5jEh00Ds9Im08StwZ0TQWmp+GBspnsdixrrkJIUUBVrmC7kS9w6xbIqF6k8O1qjZ0nGdL27QSvTFKtj58Li9N0MVWCtvVpbS25TpnDDcQFireFuAgqtmuLwFNLd4Ap1xMd0lCHmvq8LB2QDwHV/eB8v40BumkqO7qlV8zo0AySmdPb5raGg7X8y2purOdU4WYgPUNMuJ6Au0TbvVU9PZucjDtUppQacPIlqTvAzljwM8ERNVEZOLBlsW4Cz7YlsvmFvmXffYx6uN9pIxaBCLsklZnexwQZpzE7EfCnLaJVqtIfSmNReWREqfWkQRZGTYrs5Vd9su4ofqiY79qCxKedeRrRKJW4zWNky8kPojbjFqCzHKaXa+86gdzi/SqnYRjNHcNFEWObf8DzNGpPHnI7ZqNUnPdhki4u4rxVKhIzQYrsJ9EPJ9sShUr/QOJjfyodR1RDPMik0rIbgNsF/BWVFJfU7Zc+V9mDi2/9fCkKzuliOwcI3cVKGaXxDztrqGRORXUpux+QN+OMmiRCCJWO30rOmUQsH63SurDL0vH+uM7UcflEDt/MxayCOH2QQ0r5T88gmaVrDA24="
+}
