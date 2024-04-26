@@ -39,7 +39,7 @@ jobs:
         mv ./output/* ../${version}/
     - name: Push to repository
       run: |
-          mv -f ./${version} ./json/
+          rsync -av --delete ./${version} ./json/
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add -f "./json/${version}"
