@@ -35,10 +35,16 @@ jobs:
     - name: Move file
       run: |
         mkdir "$version"
+<<<<<<< HEAD
         cd tools
         mv ./output/* ../"$version/"
     - name: Push to repository
       run: |
+=======
+        mv ./output/* ../"$version/"
+    - name: Push to repository
+        run: |
+>>>>>>> 916230a30b612b9ec56fdd63652c55283379713c
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git checkout -b build-artifacts
