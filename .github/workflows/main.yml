@@ -12,7 +12,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      version: "4.3.0"
+      version: "4.6.0"
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
@@ -21,19 +21,26 @@ jobs:
       run: |
         cd tools
         chmod +x region_decode
-        ./region_decode "OSRELAndroid4.3.0" "3cf6034ee8f9c9fa" "5" "OS" "$version" "https://osasiadispatch.yuanshen.com/query_cur_region"
+        ./region_decode "OSRELAndroid4.6.0" "cf1f175b8653373d" "5" "OS" "$version" "https://osasiadispatch.yuanshen.com/query_cur_region"
     - name: Run cn region decode
       run: |
         cd tools
         chmod +x region_decode
-        ./region_decode "CNRELAndroid4.3.0" "a1bec5d0a9c892a4" "4" "CN" "$version" "https://cngfdispatch.yuanshen.com/query_cur_region"
+        ./region_decode "CNRELAndroid4.6.0" "2a0793d37497c803" "4" "CN" "$version" "https://cngfdispatch.yuanshen.com/query_cur_region"
     - name: Run region conve
       run: |
         cd tools
         chmod +x convert_region
         ./convert_region
-    - name: Upload output
-      uses: actions/upload-artifact@v2
-      with:
-        name: "JSON"
-        path: tools/output
+    - name: Move file
+      run: |
+        mkdir "$version"
+        mv ./output/* ../"$version/"
+    - name: Push to repository
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git checkout -b build-artifacts
+          git add -f "$version"
+          git commit -m "update $version "
+          git push --force https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}/build-artifacts
