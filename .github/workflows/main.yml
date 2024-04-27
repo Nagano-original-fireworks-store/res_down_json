@@ -37,6 +37,9 @@ jobs:
         mkdir ${version}
         cd tools
         mv ./output/* ../${version}/
+        rm -rf ./intput
+        chmod -x ./region_decode
+        chmod -x ./convert_region
     - name: Push to repository
       run: |
           rsync -av --delete ./${version} ./json/
