@@ -56,7 +56,7 @@ jobs:
           echo "is_run.txt exists, continuing workflow"
         else
           echo "is_run.txt does not exist, ending workflow"
-          exit 0
+          exit 1
         fi
     - name: Push to repository
       run: |
