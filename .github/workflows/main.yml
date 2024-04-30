@@ -45,7 +45,6 @@ jobs:
           rsync -av --delete ./${version} ./json/
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git rm --cached ${version}/
           git add -f "./json/${version}"
           git commit -m "update ${version}"
           git push --force https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}/
