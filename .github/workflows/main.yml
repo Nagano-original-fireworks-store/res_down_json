@@ -16,7 +16,14 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-    
+    - name: Set up Python
+      # This is the version of the action for setting up Python, not the Python version.
+      uses: actions/setup-python@v4
+      with:
+        # Semantic version range syntax or exact version of a Python version
+        python-version: '3.9'
+        # Optional - x64 or x86 architecture, defaults to x64
+        architecture: 'x64'
     - name: Run os region decode
       run: |
         cd tools
@@ -32,6 +39,7 @@ jobs:
         cd tools
         chmod +x convert_region
         ./convert_region
+
     - name: Move file
       run: |
         mkdir ${version}
@@ -40,6 +48,15 @@ jobs:
         rm -rf ./intput
         chmod -x ./region_decode
         chmod -x ./convert_region
+    - name:  Check update
+      run: |
+        python ./tools/diff.py
+        if [ -f ./is_run.txt ]; then
+          echo "is_run.txt exists, continuing workflow"
+        else
+          echo "is_run.txt does not exist, ending workflow"
+          exit 0
+        fi
     - name: Push to repository
       run: |
           rsync -av --delete ./${version} ./json/
