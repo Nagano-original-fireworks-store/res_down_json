@@ -46,7 +46,6 @@ jobs:
         cd tools
         mv ./output/* ../${version}/
         rm -rf ./intput
-        chmod -x ./region_decode
         chmod -x ./convert_region
     - name:  Check update
       run: |
