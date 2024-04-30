@@ -54,10 +54,10 @@ jobs:
         python ./tools/diff.py
         if [ -f ./txt/is_run.txt ]; then
             echo "is_run.txt exists, continuing workflow"
-            echo "::set-env name=IS_RUN::true"
+            echo "{IS_RUN}={true}" >> $GITHUB_ENV
           else
             echo "is_run.txt does not exist, skipping workflow"
-            echo "::set-env name=IS_RUN::false"
+            echo "{IS_RUN}={false}" >> $GITHUB_ENV
             exit 0
           fi
     - name: Push to repository
@@ -65,7 +65,7 @@ jobs:
           rsync -av --delete ./${version} ./json/
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          if [ "$IS_RUN" == "true" ]; then
+          if [ "${{ env.IS_RUN }}" == "true" ]; then
             echo "IS_RUN is true, doing something..."
             git add -f "./json/${version}"
             git commit -m "update ${version}"
