@@ -52,17 +52,24 @@ jobs:
         python -m pip install --upgrade pip
         pip3 install jsondiff
         python ./tools/diff.py
-        if [ -f ./is_run.txt ]; then
-          echo "is_run.txt exists, continuing workflow"
-        else
-          echo "is_run.txt does not exist, ending workflow"
-          exit 1
-        fi
+        if [ -f ./txt/is_run.txt ]; then
+            echo "is_run.txt exists, continuing workflow"
+            echo "::set-env name=IS_RUN::true"
+          else
+            echo "is_run.txt does not exist, skipping workflow"
+            echo "::set-env name=IS_RUN::false"
+            exit 0
+          fi
     - name: Push to repository
       run: |
           rsync -av --delete ./${version} ./json/
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add -f "./json/${version}"
-          git commit -m "update ${version}"
-          git push --force https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}/
+          if [ "$IS_RUN" == "true" ]; then
+            echo "IS_RUN is true, doing something..."
+            git add -f "./json/${version}"
+            git commit -m "update ${version}"
+            git push --force https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}/
+          else
+            echo "IS_RUN is false, skipping..."
+          fi
