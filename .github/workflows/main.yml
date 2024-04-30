@@ -50,6 +50,8 @@ jobs:
         chmod -x ./convert_region
     - name:  Check update
       run: |
+        python -m pip install --upgrade pip
+        pip3 install jsondiff
         python ./tools/diff.py
         if [ -f ./is_run.txt ]; then
           echo "is_run.txt exists, continuing workflow"
