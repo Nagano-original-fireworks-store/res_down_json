@@ -15,7 +15,7 @@ jobs:
       version: "4.6.0"
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
     
     - name: Run os region decode
       run: |
