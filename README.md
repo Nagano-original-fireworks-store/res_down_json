@@ -4,7 +4,7 @@
 ## 如果更新错误的时候需要注意`branch`是否读取了
 ## 可以通过解`region`来查看或者在`dispatch.log`可以查看
 ![Alt text](dispacth_log.png)
-# txt文件未经过完全测试如果报错和我说我去重新处理一下
+# txt文件未经过完全测试
 |VER |IOS|PC|PS4|PS5|ANDROID|
 |--:|---|---|---|---|---|
 |**1.0**|➖|✔|➖|➖|➖|
