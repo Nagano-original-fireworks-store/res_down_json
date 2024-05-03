@@ -73,9 +73,3 @@ jobs:
           else
             echo "IS_RUN is false, skipping..."
           fi
-    - name: Archive production artifacts
-      uses: actions/upload-artifact@v4
-      with:
-          name: ${version}_TEST_FILES
-          path: |
-              ./4.6.0
