@@ -46,8 +46,8 @@ def compare_json_files2(file1_path, file2_path):
         print("Error: ResVersionConfig not found in one or both files.")
 
 # 两个JSON文件的路径
-file1_path = './4.6.0/CNRELAndroid4.6.0.json'
-file2_path = './json/4.6.0/CNRELAndroid4.6.0.json'
+file1_path = './4.7.0/CNRELAndroid4.7.0.json'
+file2_path = './json/4.7.0/CNRELAndroid4.7.0.json'
 
 # 调用比较函数
 compare_json_files(file1_path, file2_path)
