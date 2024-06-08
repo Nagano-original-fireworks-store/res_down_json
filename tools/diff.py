@@ -15,8 +15,11 @@ def compare_json_files(file1_path, file2_path, key_path, output_file='is_run.txt
     if not os.path.exists(file1_path):
         print(f"Error: File 1 '{file1_path}' does not exist.")
         return
+
     if not os.path.exists(file2_path):
-        print(f"Error: File 2 '{file2_path}' does not exist.")
+        print(f"File 2 '{file2_path}' does not exist. Creating '{output_file}' with 'UPDATE'.")
+        with open(output_file, 'w') as file:
+            file.write('UPDATE')
         return
 
     # Read JSON files
@@ -47,6 +50,7 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: python diff.py <version>")
         sys.exit(1)
+
     current_dir = os.getcwd()
     version = sys.argv[1]
 
