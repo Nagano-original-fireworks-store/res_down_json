@@ -63,13 +63,14 @@ jobs:
           fi
     - name: Push to repository
       run: |
+          time = $(TZ=UTC-8 date +%Y-%m-%d" "%H:%M:%S)
           rsync -av --delete ./${version} ./json/
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           if [ "${{ env.IS_RUN }}" == "true" ]; then
             echo "IS_RUN is true, doing something..."
             git add -f "./json/${version}"
-            git commit -m "update ${version}"
+            git commit -m "update ${version} ${time}"
             git push --force https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}/
           else
             echo "IS_RUN is false, skipping..."
