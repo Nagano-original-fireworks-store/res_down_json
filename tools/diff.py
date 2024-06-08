@@ -2,7 +2,7 @@ import json
 import os
 import sys
 
-def compare_json_files(file1_path, file2_path, key_path, output_file='is_run.txt'):
+def compare_json_files(file1_path, file2_path, key_path, output_file='./is_run.txt'):
     def get_nested_value(data, key_path):
         keys = key_path.split('.')
         for key in keys:
@@ -10,7 +10,8 @@ def compare_json_files(file1_path, file2_path, key_path, output_file='is_run.txt
             if data is None:
                 return None
         return data
-
+    current_dir = os.getcwd()
+    output_file + current_dir
     # Check if files exist
     if not os.path.exists(file1_path):
         print(f"Error: File 1 '{file1_path}' does not exist.")
