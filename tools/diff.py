@@ -62,4 +62,3 @@ if __name__ == "__main__":
     # Call the function for both cases
     compare_json_files(file1_path, file2_path, 'regionInfo.ClientDataVersion')
     compare_json_files(file1_path, file2_path, 'regionInfo.ResVersionConfig.Version')
-    print(current_dir)

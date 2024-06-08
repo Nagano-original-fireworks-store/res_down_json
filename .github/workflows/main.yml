@@ -54,11 +54,11 @@ jobs:
         python ./tools/diff.py ${version}
         if [ -f ./is_run.txt ]; then
             echo "is_run.txt exists, continuing workflow"
-            echo "{IS_RUN}={true}" >> $GITHUB_ENV
+            echo "IS_RUN=true" >> $GITHUB_ENV
             echo ${{ env.IS_RUN }}
           else
             echo "is_run.txt does not exist, skipping workflow"
-            echo "{IS_RUN}={false}" >> $GITHUB_ENV
+            echo "IS_RUN=false" >> $GITHUB_ENV
             exit 0
           fi
     - name: Push to repository
