@@ -1,4 +1,6 @@
 import json
+import os
+import sys
 
 def compare_json_files(file1_path, file2_path, key_path, output_file='is_run.txt'):
     def get_nested_value(data, key_path):
@@ -8,6 +10,14 @@ def compare_json_files(file1_path, file2_path, key_path, output_file='is_run.txt
             if data is None:
                 return None
         return data
+
+    # Check if files exist
+    if not os.path.exists(file1_path):
+        print(f"Error: File '{file1_path}' does not exist.")
+        return
+    if not os.path.exists(file2_path):
+        print(f"Error: File '{file2_path}' does not exist.")
+        return
 
     # Read JSON files
     try:
@@ -33,10 +43,17 @@ def compare_json_files(file1_path, file2_path, key_path, output_file='is_run.txt
     else:
         print(f"Error: '{key_path}' not found in one or both files.")
 
-# Define the JSON file paths
-file1_path = './4.7.0/CNRELAndroid4.7.0.json'
-file2_path = './json/4.7.0/CNRELAndroid4.7.0.json'
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python diff.py <version>")
+        sys.exit(1)
 
-# Call the function for both cases
-compare_json_files(file1_path, file2_path, 'regionInfo.ClientDataVersion')
-compare_json_files(file1_path, file2_path, 'regionInfo.ResVersionConfig.Version')
+    version = sys.argv[1]
+
+    # Define the JSON file paths
+    file1_path = f'./{version}/CNRELAndroid{version}.json'
+    file2_path = f'./json/{version}/CNRELAndroid{version}.json'
+
+    # Call the function for both cases
+    compare_json_files(file1_path, file2_path, 'regionInfo.ClientDataVersion')
+    compare_json_files(file1_path, file2_path, 'regionInfo.ResVersionConfig.Version')
