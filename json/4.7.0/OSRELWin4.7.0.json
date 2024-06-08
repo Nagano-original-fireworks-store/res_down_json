@@ -1,0 +1,35 @@
+{
+  "regionInfo": {
+    "PayCallbackUrl": "http://127.0.0.1/pay-callback",
+    "AreaType": "JP",
+    "CdkeyUrl": "http://127.0.0.1",
+    "PrivacyPolicyUrl": "",
+    "FeedbackUrl": "",
+    "BulletinUrl": "",
+    "SecretKey": "",
+    "ResourceUrl": "https://autopatchhk.yuanshen.com/client_game_res/4.7_live",
+    "DataUrl": "https://autopatchhk.yuanshen.com/client_design_data/4.7_live",
+    "ResourceUrlBak": "4.7_live",
+    "DataUrlBak": "",
+    "ClientDataVersion": 23935420,
+    "ClientSilenceDataVersion": 23983991,
+    "ClientDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"04182424450a37dbda2ca96b657c3807\", \"hash\": \"192242692728976b\", \"fileSize\": 6656}\r\n{\"remoteName\": \"data_versions_medium\", \"md5\": \"d18f9d2c4b81f53cee2ce461c3cbd940\", \"hash\": \"2554dea321376ced\", \"fileSize\": 6656}",
+    "ClientSilenceDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"76b55a55fc9a8bf88397d7c1dc37efa0\", \"hash\": \"9df338f5881ec77a\", \"fileSize\": 523}",
+    "ClientVersionSuffix": "cddf437c96",
+    "ClientSilenceVersionSuffix": "dc1883d0e9",
+    "ResVersionConfig": {
+      "Relogin": false,
+      "Md5": "{\"remoteName\": \"res_versions_external\", \"md5\": \"cafad491fb22fcfdda18d3b54d59fb25\", \"hash\": \"1ffe97d43b69d527\", \"fileSize\": 190247}\r\n{\"remoteName\": \"res_versions_medium\", \"md5\": \"62800e714fbd1298244d6c20fe531bac\", \"hash\": \"adbd3b03aa22d460\", \"fileSize\": 127930}\r\n{\"remoteName\": \"res_versions_streaming\", \"md5\": \"792b38c96c937b7d5f5480d31b7174a5\", \"hash\": \"6adeebb9dcd9b290\", \"fileSize\": 118182}\r\n{\"remoteName\": \"base_revision\", \"md5\": \"a27d2b5a20ccfef2ea8075e904c1ab8f\", \"hash\": \"2d01c89b7b64c012\", \"fileSize\": 19}",
+      "Version": 23760009,
+      "ReleaseTotalSize": "0",
+      "VersionSuffix": "e0c5214301",
+      "Branch": "4.7_live"
+    }
+  },
+  "StopServer": {
+    "StopBeginTime": 1577808000,
+    "StopEndTime": 1893427200,
+    "Url": "https://vme50.icu/",
+    "ContentMsg": "芜湖起飞"
+  }
+}
