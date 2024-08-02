@@ -11,18 +11,18 @@
     "DataUrl": "https://autopatchcn.yuanshen.com/client_design_data/4.8_live",
     "ResourceUrlBak": "4.8_live",
     "DataUrlBak": "",
-    "ClientDataVersion": 25518246,
+    "ClientDataVersion": 25722854,
     "ClientSilenceDataVersion": 25353456,
     "ClientDataMd5": "",
     "ClientSilenceDataMd5": "",
-    "ClientVersionSuffix": "c61e7a470e",
+    "ClientVersionSuffix": "8853cb1f62",
     "ClientSilenceVersionSuffix": "5cf8b1c426",
     "ResVersionConfig": {
       "Relogin": false,
-      "Md5": "{\"remoteName\": \"res_versions_external\", \"md5\": \"c41f4b9371f3bf518ca8cb0057ea6e38\", \"hash\": \"fea3446765ab7400\", \"fileSize\": 199480}\r\n{\"remoteName\": \"res_versions_medium\", \"md5\": \"844aebfab1104a79d42b6c0dee9a7189\", \"hash\": \"26c60a89eb0c61fe\", \"fileSize\": 130565}\r\n{\"remoteName\": \"res_versions_streaming\", \"md5\": \"c5b34b82990b2da1e42456d680ff561b\", \"hash\": \"dc0b8e83e2b66673\", \"fileSize\": 120161}\r\n{\"remoteName\": \"base_revision\", \"md5\": \"0b6dcfbf1a9cd6d1f08f523578ddcc27\", \"hash\": \"451308f1dad87acb\", \"fileSize\": 19}\r\n{\"remoteName\": \"patch_node_versions\", \"md5\": \"bc6fe51286ec04306702193fbb7358e6\", \"hash\": \"ddb9c9be4793c9ac\", \"fileSize\": 847}",
-      "Version": 25462395,
+      "Md5": "{\"remoteName\": \"res_versions_external\", \"md5\": \"6228dfe23de942f90227545e840ef3eb\", \"hash\": \"5f8e730b2e791308\", \"fileSize\": 199629}\r\n{\"remoteName\": \"res_versions_medium\", \"md5\": \"95a2a3231b63a29c58d0db643fd9026e\", \"hash\": \"3020c22eaf659b09\", \"fileSize\": 130565}\r\n{\"remoteName\": \"res_versions_streaming\", \"md5\": \"0b44f55baf1f52601c576b964383a5a5\", \"hash\": \"d5150b4011293ffd\", \"fileSize\": 120161}\r\n{\"remoteName\": \"base_revision\", \"md5\": \"0b6dcfbf1a9cd6d1f08f523578ddcc27\", \"hash\": \"451308f1dad87acb\", \"fileSize\": 19}\r\n{\"remoteName\": \"patch_node_versions\", \"md5\": \"6f6d8cf71903bf8eb18c38f2868819ec\", \"hash\": \"ab64cdb9fd9c382f\", \"fileSize\": 847}",
+      "Version": 25683502,
       "ReleaseTotalSize": "0",
-      "VersionSuffix": "ac5b7b72db",
+      "VersionSuffix": "e97e19ed63",
       "Branch": "4.8_live"
     }
   },
