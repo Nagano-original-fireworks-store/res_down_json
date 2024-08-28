@@ -69,7 +69,7 @@ jobs:
           if [ "${{ env.IS_RUN }}" == "true" ]; then
             echo "IS_RUN is true, doing something..."
             git add -f "./json/${version}"
-            git commit -m "update ${version}"
+            git commit -m "update ${version} ${{ github.run_id }}"
             git push --force https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}/
           else
             echo "IS_RUN is false, skipping..."
