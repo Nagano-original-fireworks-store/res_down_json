@@ -65,7 +65,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: File_${{ github.run_id }}
-        path: "./${version}"
+        path: "./${{ env.version }}"
     - name: Push to repository
       run: |
           rsync -av --delete ./${version} ./json/
