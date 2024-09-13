@@ -11,11 +11,11 @@
     "DataUrl": "https://autopatchcn.yuanshen.com/client_design_data/5.0_live",
     "ResourceUrlBak": "",
     "DataUrlBak": "",
-    "ClientDataVersion": 26872430,
+    "ClientDataVersion": 26915248,
     "ClientSilenceDataVersion": 26720294,
     "ClientDataMd5": "",
     "ClientSilenceDataMd5": "",
-    "ClientVersionSuffix": "52260206c2",
+    "ClientVersionSuffix": "0cae724c96",
     "ClientSilenceVersionSuffix": "79e8f3e212",
     "ResVersionConfig": {
       "Relogin": false,
