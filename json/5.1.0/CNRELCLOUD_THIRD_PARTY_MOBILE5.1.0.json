@@ -1,0 +1,35 @@
+{
+  "regionInfo": {
+    "PayCallbackUrl": "http://127.0.0.1/pay-callback",
+    "AreaType": "CN",
+    "CdkeyUrl": "http://127.0.0.1",
+    "PrivacyPolicyUrl": "",
+    "FeedbackUrl": "",
+    "BulletinUrl": "",
+    "SecretKey": "",
+    "ResourceUrl": "https://autopatchcn.yuanshen.com/client_game_res/5.1_live",
+    "DataUrl": "https://autopatchcn.yuanshen.com/client_design_data/5.1_live",
+    "ResourceUrlBak": "5.1_live",
+    "DataUrlBak": "",
+    "ClientDataVersion": 27600833,
+    "ClientSilenceDataVersion": 27666575,
+    "ClientDataMd5": "",
+    "ClientSilenceDataMd5": "",
+    "ClientVersionSuffix": "e91d4c126e",
+    "ClientSilenceVersionSuffix": "1f1aa5d7fa",
+    "ResVersionConfig": {
+      "Relogin": false,
+      "Md5": "{\"remoteName\": \"res_versions_external\", \"md5\": \"e77b6fe9721084d090192ecdd02834b3\", \"hash\": \"7524340ad5389e98\", \"fileSize\": 225777}\r\n{\"remoteName\": \"res_versions_medium\", \"md5\": \"7e207aa54d87487c4f1e380c7bc0a116\", \"hash\": \"050c0c315f029b49\", \"fileSize\": 143029}\r\n{\"remoteName\": \"res_versions_streaming\", \"md5\": \"f5233549c6c4d8d6594a9bdb51f7176d\", \"hash\": \"1d4b6079c06f88bf\", \"fileSize\": 130764}\r\n{\"remoteName\": \"base_revision\", \"md5\": \"624e2652c9dec9d593bdb8e2a655f87c\", \"hash\": \"81fac9c629364770\", \"fileSize\": 19}\r\n{\"remoteName\": \"patch_node_versions\", \"md5\": \"364387f95f037cc87874225eaac1248d\", \"hash\": \"78e46d3389e2f5eb\", \"fileSize\": 2577}",
+      "Version": 27462100,
+      "ReleaseTotalSize": "0",
+      "VersionSuffix": "72287fac61",
+      "Branch": "5.1_live"
+    }
+  },
+  "StopServer": {
+    "StopBeginTime": 1577808000,
+    "StopEndTime": 1893427200,
+    "Url": "https://vme50.icu/",
+    "ContentMsg": "芜湖起飞"
+  }
+}

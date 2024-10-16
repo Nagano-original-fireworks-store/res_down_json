@@ -1,0 +1,35 @@
+{
+  "regionInfo": {
+    "PayCallbackUrl": "http://127.0.0.1/pay-callback",
+    "AreaType": "CN",
+    "CdkeyUrl": "http://127.0.0.1",
+    "PrivacyPolicyUrl": "",
+    "FeedbackUrl": "",
+    "BulletinUrl": "",
+    "SecretKey": "",
+    "ResourceUrl": "https://autopatchcn.yuanshen.com/client_game_res/5.1_live",
+    "DataUrl": "https://autopatchcn.yuanshen.com/client_design_data/5.1_live",
+    "ResourceUrlBak": "5.1_live",
+    "DataUrlBak": "",
+    "ClientDataVersion": 27600833,
+    "ClientSilenceDataVersion": 27666575,
+    "ClientDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"4a88a2baa5a5e3cb34fee5cc3569ac2e\", \"hash\": \"dc9fb17639bfdbaa\", \"fileSize\": 68578}\r\n{\"remoteName\": \"data_versions_medium\", \"md5\": \"3f2dfc661f2f2eb9f7ac1aa2d88432b2\", \"hash\": \"50c673fac0d0f02a\", \"fileSize\": 6664}",
+    "ClientSilenceDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"84d764ff0c86cf310ced6a77d2a7469f\", \"hash\": \"6f2191e1743804cb\", \"fileSize\": 523}",
+    "ClientVersionSuffix": "e91d4c126e",
+    "ClientSilenceVersionSuffix": "1f1aa5d7fa",
+    "ResVersionConfig": {
+      "Relogin": false,
+      "Md5": "{\"remoteName\": \"res_versions_external\", \"md5\": \"067fc22128a45932bc73190c5f83ef36\", \"hash\": \"8ea4ccb6181995a5\", \"fileSize\": 157969}\r\n{\"remoteName\": \"res_versions_medium\", \"md5\": \"7164228c76e0c20e0e3126f219d9451e\", \"hash\": \"8258f0d745ef0bb8\", \"fileSize\": 9892}\r\n{\"remoteName\": \"res_versions_streaming\", \"md5\": \"5624e824672e2e75c79ba250e874073a\", \"hash\": \"5de209de0a99db03\", \"fileSize\": 2099}\r\n{\"remoteName\": \"base_revision\", \"md5\": \"624e2652c9dec9d593bdb8e2a655f87c\", \"hash\": \"81fac9c629364770\", \"fileSize\": 19}\r\n{\"remoteName\": \"patch_node_versions\", \"md5\": \"371b6cb2e720a168f608942b7e46c8f9\", \"hash\": \"99814297245cb630\", \"fileSize\": 2629}\r\n{\"remoteName\": \"audio_diff_versions_27462100-26161852\", \"md5\": \"b802d998c3db2797522df506a935bfde\", \"hash\": \"8905bb4520917261\", \"fileSize\": 30755}",
+      "Version": 27462100,
+      "ReleaseTotalSize": "0",
+      "VersionSuffix": "72287fac61",
+      "Branch": "5.1_live"
+    }
+  },
+  "StopServer": {
+    "StopBeginTime": 1577808000,
+    "StopEndTime": 1893427200,
+    "Url": "https://vme50.icu/",
+    "ContentMsg": "芜湖起飞"
+  }
+}
