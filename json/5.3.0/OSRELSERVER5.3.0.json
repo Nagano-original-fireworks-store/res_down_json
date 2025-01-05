@@ -1,0 +1,35 @@
+{
+  "regionInfo": {
+    "PayCallbackUrl": "http://127.0.0.1/pay-callback",
+    "AreaType": "JP",
+    "CdkeyUrl": "http://127.0.0.1",
+    "PrivacyPolicyUrl": "",
+    "FeedbackUrl": "",
+    "BulletinUrl": "",
+    "SecretKey": "",
+    "ResourceUrl": "https://autopatchhk.yuanshen.com/client_game_res/",
+    "DataUrl": "https://autopatchhk.yuanshen.com/client_design_data/5.3_live",
+    "ResourceUrlBak": "",
+    "DataUrlBak": "",
+    "ClientDataVersion": 29707439,
+    "ClientSilenceDataVersion": 29707439,
+    "ClientDataMd5": "",
+    "ClientSilenceDataMd5": "",
+    "ClientVersionSuffix": "9d14e2dd86",
+    "ClientSilenceVersionSuffix": "9d14e2dd86",
+    "ResVersionConfig": {
+      "Relogin": false,
+      "Md5": "",
+      "Version": 29198875,
+      "ReleaseTotalSize": "",
+      "VersionSuffix": "",
+      "Branch": ""
+    }
+  },
+  "StopServer": {
+    "StopBeginTime": 1577808000,
+    "StopEndTime": 1893427200,
+    "Url": "https://vme50.icu/",
+    "ContentMsg": "芜湖起飞"
+  }
+}

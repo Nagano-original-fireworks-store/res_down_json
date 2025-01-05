@@ -1,0 +1,35 @@
+{
+  "regionInfo": {
+    "PayCallbackUrl": "http://127.0.0.1/pay-callback",
+    "AreaType": "JP",
+    "CdkeyUrl": "http://127.0.0.1",
+    "PrivacyPolicyUrl": "",
+    "FeedbackUrl": "",
+    "BulletinUrl": "",
+    "SecretKey": "",
+    "ResourceUrl": "https://autopatchhk.yuanshen.com/client_game_res/5.3_live",
+    "DataUrl": "https://autopatchhk.yuanshen.com/client_design_data/5.3_live",
+    "ResourceUrlBak": "5.3_live",
+    "DataUrlBak": "",
+    "ClientDataVersion": 29707439,
+    "ClientSilenceDataVersion": 29707439,
+    "ClientDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"b5d013d4e08c41662c3796d1e627e6a8\", \"hash\": \"20648e758479362b\", \"fileSize\": 68667}\r\n{\"remoteName\": \"data_versions_medium\", \"md5\": \"a255ed68af33f90c25ab6692a4545286\", \"hash\": \"b191f58d05b74009\", \"fileSize\": 6666}",
+    "ClientSilenceDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"f4df2367be57ee26fffd8696f6af82a2\", \"hash\": \"66bffd2002c9d5af\", \"fileSize\": 523}",
+    "ClientVersionSuffix": "9d14e2dd86",
+    "ClientSilenceVersionSuffix": "9d14e2dd86",
+    "ResVersionConfig": {
+      "Relogin": false,
+      "Md5": "{\"remoteName\": \"res_versions_external\", \"md5\": \"2ea85bfc35925c8b49d4f481416d5645\", \"hash\": \"7f499c8b212e8cc0\", \"fileSize\": 172080}\r\n{\"remoteName\": \"res_versions_medium\", \"md5\": \"b227b16e44adcc2f4497cb6904a80adc\", \"hash\": \"1ae57e39af6395f5\", \"fileSize\": 10593}\r\n{\"remoteName\": \"res_versions_streaming\", \"md5\": \"a6e65dbcac273169edb2430f87593ac7\", \"hash\": \"db82f833674e3c47\", \"fileSize\": 2361}\r\n{\"remoteName\": \"base_revision\", \"md5\": \"dc8fd52654119b05297bf067c2722470\", \"hash\": \"218b3a78a346f6c7\", \"fileSize\": 19}\r\n{\"remoteName\": \"patch_node_versions\", \"md5\": \"f61b15835084802d39f8e438b13d9480\", \"hash\": \"0bcbaf54a7bb8031\", \"fileSize\": 3513}",
+      "Version": 29705774,
+      "ReleaseTotalSize": "0",
+      "VersionSuffix": "7e218277ba",
+      "Branch": "5.3_live"
+    }
+  },
+  "StopServer": {
+    "StopBeginTime": 1577808000,
+    "StopEndTime": 1893427200,
+    "Url": "https://vme50.icu/",
+    "ContentMsg": "芜湖起飞"
+  }
+}
