@@ -12,7 +12,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      version: "5.1.0"
+      version: "5.3.0"
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -28,12 +28,12 @@ jobs:
       run: |
         cd tools
         chmod +x region_decode
-        ./region_decode "OSRELAndroid${version}" "d9067da913482dac" "5" "OS" "${version}" "https://osasiadispatch.yuanshen.com/query_cur_region"
+        ./region_decode "OSRELAndroid${version}" "a271d7a89ba11535" "5" "OS" "${version}" "https://osasiadispatch.yuanshen.com/query_cur_region"
     - name: Run cn region decode
       run: |
         cd tools
         chmod +x region_decode
-        ./region_decode "CNRELAndroid${version}" "ca4641b3870b5dc1" "4" "CN" "${version}" "https://cngfdispatch.yuanshen.com/query_cur_region"
+        ./region_decode "CNRELAndroid${version}" "5d2e0b5db5af4769" "4" "CN" "${version}" "https://cngfdispatch.yuanshen.com/query_cur_region"
     - name: Run region conve
       run: |
         cd tools
