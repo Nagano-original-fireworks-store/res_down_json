@@ -1,23 +1,30 @@
 {
   "regionInfo": {
     "PayCallbackUrl": "http://127.0.0.1/pay-callback",
-    "AreaType": "",
+    "AreaType": "CN",
     "CdkeyUrl": "http://127.0.0.1",
     "PrivacyPolicyUrl": "",
     "FeedbackUrl": "",
     "BulletinUrl": "",
     "SecretKey": "",
-    "ResourceUrl": "",
-    "DataUrl": "",
-    "ResourceUrlBak": "",
+    "ResourceUrl": "https://autopatchcn.yuanshen.com/client_game_res/5.3_live",
+    "DataUrl": "https://autopatchcn.yuanshen.com/client_design_data/5.3_live",
+    "ResourceUrlBak": "5.3_live",
     "DataUrlBak": "",
-    "ClientDataVersion": null,
-    "ClientSilenceDataVersion": null,
-    "ClientDataMd5": "",
-    "ClientSilenceDataMd5": "",
-    "ClientVersionSuffix": "",
-    "ClientSilenceVersionSuffix": "",
-    "ResVersionConfig": null
+    "ClientDataVersion": 30106004,
+    "ClientSilenceDataVersion": 30268382,
+    "ClientDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"1d2a708f1f75ab72e75fe3ce88fcb614\", \"hash\": \"d7c95561be24ba3b\", \"fileSize\": 68667}\r\n{\"remoteName\": \"data_versions_medium\", \"md5\": \"e98f4e9df230acf926d6dadd35d1f370\", \"hash\": \"6264b59a7bff8d89\", \"fileSize\": 6666}",
+    "ClientSilenceDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"4b95fc47dcddb8d387ba3d66784d3f71\", \"hash\": \"1ad0354b0e61ec88\", \"fileSize\": 523}",
+    "ClientVersionSuffix": "8a4a5364c3",
+    "ClientSilenceVersionSuffix": "0ec19ee5e5",
+    "ResVersionConfig": {
+      "Relogin": false,
+      "Md5": "{\"remoteName\": \"res_versions_external\", \"md5\": \"025851e63263d76c3e86968622f5253b\", \"hash\": \"e40488630ba67f93\", \"fileSize\": 53050}\r\n{\"remoteName\": \"res_versions_medium\", \"md5\": \"e26d67147417b8ed27ab83cd3d8912b0\", \"hash\": \"f2fdcc7eea1e34df\", \"fileSize\": 35586}\r\n{\"remoteName\": \"res_versions_streaming\", \"md5\": \"d9a076862c8c437c9c54cb1a80719268\", \"hash\": \"285bf15a84515a28\", \"fileSize\": 34620}\r\n{\"remoteName\": \"base_revision\", \"md5\": \"dc8fd52654119b05297bf067c2722470\", \"hash\": \"218b3a78a346f6c7\", \"fileSize\": 19}\r\n{\"remoteName\": \"patch_node_versions\", \"md5\": \"048481a4731c50f104e0388aae3dc439\", \"hash\": \"d9183093548a7817\", \"fileSize\": 845}",
+      "Version": 30064194,
+      "ReleaseTotalSize": "0",
+      "VersionSuffix": "3e5c6aef48",
+      "Branch": "5.3_live"
+    }
   },
   "StopServer": {
     "StopBeginTime": 1577808000,

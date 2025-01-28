@@ -1,23 +1,30 @@
 {
   "regionInfo": {
     "PayCallbackUrl": "http://127.0.0.1/pay-callback",
-    "AreaType": "",
+    "AreaType": "CN",
     "CdkeyUrl": "http://127.0.0.1",
     "PrivacyPolicyUrl": "",
     "FeedbackUrl": "",
     "BulletinUrl": "",
     "SecretKey": "",
-    "ResourceUrl": "",
-    "DataUrl": "",
+    "ResourceUrl": "https://autopatchcn.yuanshen.com/client_game_res/",
+    "DataUrl": "https://autopatchcn.yuanshen.com/client_design_data/5.3_live",
     "ResourceUrlBak": "",
     "DataUrlBak": "",
-    "ClientDataVersion": null,
-    "ClientSilenceDataVersion": null,
+    "ClientDataVersion": 30106004,
+    "ClientSilenceDataVersion": 30268382,
     "ClientDataMd5": "",
     "ClientSilenceDataMd5": "",
-    "ClientVersionSuffix": "",
-    "ClientSilenceVersionSuffix": "",
-    "ResVersionConfig": null
+    "ClientVersionSuffix": "8a4a5364c3",
+    "ClientSilenceVersionSuffix": "0ec19ee5e5",
+    "ResVersionConfig": {
+      "Relogin": false,
+      "Md5": "",
+      "Version": 29198875,
+      "ReleaseTotalSize": "",
+      "VersionSuffix": "",
+      "Branch": ""
+    }
   },
   "StopServer": {
     "StopBeginTime": 1577808000,
