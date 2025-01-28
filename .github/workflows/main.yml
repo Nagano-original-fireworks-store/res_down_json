@@ -33,7 +33,7 @@ jobs:
       run: |
         cd tools
         chmod +x region_decode
-        ./region_decode "CNRELAndroid${version}" "5d2e0b5db5af4769" "4" "CN" "${version}" "https://cngfdispatch.yuanshen.com/query_cur_region"
+        ./region_decode "CNRELAndroid${version}" "cf410c0d4591bbb9" "4" "CN" "${version}" "https://cngfdispatch.yuanshen.com/query_cur_region"
     - name: Run region conve
       run: |
         cd tools
