@@ -10,13 +10,13 @@ def compare_json_files(file1_path, file2_path, key_path, output_file='./is_run.t
             if data is None:
                 return None
         return data
-    current_dir = os.getcwd()
-    output_file + current_dir
+
     # Check if files exist
     if not os.path.exists(file1_path):
         print(f"Error: File 1 '{file1_path}' does not exist.")
         return
 
+    # If file2 does not exist, write 'UPDATE' to output file
     if not os.path.exists(file2_path):
         print(f"File 2 '{file2_path}' does not exist. Creating '{output_file}' with 'UPDATE'.")
         with open(output_file, 'w') as file:
@@ -36,6 +36,13 @@ def compare_json_files(file1_path, file2_path, key_path, output_file='./is_run.t
     # Extract the version values
     version1 = get_nested_value(data1, key_path)
     version2 = get_nested_value(data2, key_path)
+
+    # If version2 is None, write 'UPDATE' to output file
+    if version2 is None:
+        print(f"Key '{key_path}' not found in file2. Writing 'UPDATE' to '{output_file}'.")
+        with open(output_file, 'w') as file:
+            file.write('UPDATE')
+        return
 
     # Compare the versions
     if version1 is not None and version2 is not None:
