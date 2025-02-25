@@ -1,0 +1,35 @@
+{
+  "regionInfo": {
+    "PayCallbackUrl": "http://127.0.0.1/pay-callback",
+    "AreaType": "JP",
+    "CdkeyUrl": "http://127.0.0.1",
+    "PrivacyPolicyUrl": "",
+    "FeedbackUrl": "",
+    "BulletinUrl": "",
+    "SecretKey": "",
+    "ResourceUrl": "https://autopatchhk.yuanshen.com/client_game_res/5.4_live",
+    "DataUrl": "https://autopatchhk.yuanshen.com/client_design_data/5.4_live",
+    "ResourceUrlBak": "5.4_live",
+    "DataUrlBak": "",
+    "ClientDataVersion": 30844639,
+    "ClientSilenceDataVersion": 30738672,
+    "ClientDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"ab62e2934fc1517afa7461414f6a39fd\", \"hash\": \"2795fb4938c7443e\", \"fileSize\": 68709}\r\n{\"remoteName\": \"data_versions_medium\", \"md5\": \"3d6f7390703d5914da2954f7f48f9f73\", \"hash\": \"50fa31c12b15a538\", \"fileSize\": 6666}",
+    "ClientSilenceDataMd5": "{\"remoteName\": \"data_versions\", \"md5\": \"2bf5c0d17e30f0628cb1975cfaeff003\", \"hash\": \"15784c065054338f\", \"fileSize\": 522}",
+    "ClientVersionSuffix": "59aa62852a",
+    "ClientSilenceVersionSuffix": "d081d2e70f",
+    "ResVersionConfig": {
+      "Relogin": false,
+      "Md5": "{\"remoteName\": \"res_versions_external\", \"md5\": \"d616ff0030ad7004152b14248b7f9e06\", \"hash\": \"1624d6edf96d7107\", \"fileSize\": 177799}\r\n{\"remoteName\": \"res_versions_medium\", \"md5\": \"1f7415fbb1dccb97ce11d8c4aa098760\", \"hash\": \"52b9b0ff5d61a078\", \"fileSize\": 45076}\r\n{\"remoteName\": \"res_versions_streaming\", \"md5\": \"17079a1e451ed76cfef1ba782a021564\", \"hash\": \"53197bd1316b92a3\", \"fileSize\": 36308}\r\n{\"remoteName\": \"base_revision\", \"md5\": \"bd1ba2fde4ddd7cb4846cf0fe5de590e\", \"hash\": \"dcf27ba4df1e1492\", \"fileSize\": 19}\r\n{\"remoteName\": \"patch_node_versions\", \"md5\": \"343dafe5383af1beed01ef2cf6043a6b\", \"hash\": \"9e228caad9001d14\", \"fileSize\": 3955}",
+      "Version": 30666138,
+      "ReleaseTotalSize": "0",
+      "VersionSuffix": "eeba17546b",
+      "Branch": "5.4_live"
+    }
+  },
+  "StopServer": {
+    "StopBeginTime": 1577808000,
+    "StopEndTime": 1893427200,
+    "Url": "https://vme50.icu/",
+    "ContentMsg": "芜湖起飞"
+  }
+}
