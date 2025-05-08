@@ -12,7 +12,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      version: "5.5.0"
+      version: "5.6.0"
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -33,7 +33,7 @@ jobs:
       run: |
         cd tools
         chmod +x region_decode
-        ./region_decode "CNRELAndroid${version}" "10d287ebb5e64560" "4" "CN" "${version}" "https://cngfdispatch.yuanshen.com/query_cur_region"
+        ./region_decode "CNRELAndroid${version}" "a297f971f28e1628" "4" "CN" "${version}" "https://cngfdispatch.yuanshen.com/query_cur_region"
     - name: Run region conve
       run: |
         cd tools
