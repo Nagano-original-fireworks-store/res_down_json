@@ -19,10 +19,10 @@
     "ClientSilenceVersionSuffix": "96e9376ed1",
     "ResVersionConfig": {
       "Relogin": false,
-      "Md5": "{\"remoteName\": \"res_versions_external\", \"md5\": \"d53e816495880d9495b31b942cfaa71e\", \"hash\": \"4a588f1071eb2d92\", \"fileSize\": 182740}\r\n{\"remoteName\": \"res_versions_medium\", \"md5\": \"f8f5d972c3d09f1fcc9fae73632093ce\", \"hash\": \"bfa6214dffe9fb32\", \"fileSize\": 10872}\r\n{\"remoteName\": \"res_versions_streaming\", \"md5\": \"25b00a929387a100f590102fcc565c19\", \"hash\": \"684dc8149a55d3be\", \"fileSize\": 2234}\r\n{\"remoteName\": \"base_revision\", \"md5\": \"4d4fee91ef9fda01dbb75b8c6602a0f4\", \"hash\": \"8318d3d434cd6d24\", \"fileSize\": 19}\r\n{\"remoteName\": \"patch_node_versions\", \"md5\": \"b605717f50f21a76a5c5c1865e64f774\", \"hash\": \"5246fc4274ac1bbd\", \"fileSize\": 4839}",
-      "Version": 33077790,
+      "Md5": "{\"remoteName\": \"res_versions_external\", \"md5\": \"0c5f8172ad8adae5f1dca4508faaf9ee\", \"hash\": \"33a2477ed0c6e740\", \"fileSize\": 182740}\r\n{\"remoteName\": \"res_versions_medium\", \"md5\": \"382434de7d24b10915ed8397fa1754ae\", \"hash\": \"68ad69b650345c4b\", \"fileSize\": 10872}\r\n{\"remoteName\": \"res_versions_streaming\", \"md5\": \"f8300f6a43cd4b4fc9e56232ae3d8538\", \"hash\": \"e69c8976c9f799fa\", \"fileSize\": 2234}\r\n{\"remoteName\": \"base_revision\", \"md5\": \"4d4fee91ef9fda01dbb75b8c6602a0f4\", \"hash\": \"8318d3d434cd6d24\", \"fileSize\": 19}\r\n{\"remoteName\": \"patch_node_versions\", \"md5\": \"3c54b8e23b27c00918e6d17b1d991a9d\", \"hash\": \"acd0863415d4886b\", \"fileSize\": 4839}",
+      "Version": 33177015,
       "ReleaseTotalSize": "0",
-      "VersionSuffix": "41cf6f70cd",
+      "VersionSuffix": "54ae9c659b",
       "Branch": "5.6_live"
     }
   },
